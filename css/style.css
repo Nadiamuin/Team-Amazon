@@ -10,46 +10,46 @@ body {
   margin: 0;
   display: grid;
   font-size: 14px;
-  text-decoration: none;
 }
 
 /* Header starts */
-.header .top_nav {
+.container {
+  width: 100%;
+}
+header .top_nav {
   margin-top: 10px;
   width: 100%;
   height: 65px;
   background: #ffffff;
-  padding: 0 150px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
-.header .top_nav .left {
-  display: flex;
-  align-items: center;
-}
-
-.header .top_nav .left .logo p {
+header .top_nav .logo p {
   font-size: 30px;
   font-weight: Bolder;
   color: rgb(27, 27, 27);
-  font-family: "Merienda", cursive;
-  margin-right: 25px;
-  letter-spacing: 5px;
+  font-family: poppins;
+  margin-left: 10px;
+  letter-spacing: 2px;
 }
 
-.header .top_nav .left .search_bar input[type="text"] {
+header .top_nav .search_bar input[type="text"] {
   border: 1px solid #666666;
   padding: 5px 10px;
   outline: none;
   transition: all 0.5s linear;
-  width: 900px;
+  width: 700px;
   height: 50px;
+  margin-top: 5px;
   border-radius: 50px;
 }
 
-.header .bottom_nav {
+header .top_nav .icons {
+}
+
+header .bottom_nav {
   width: 100%;
   background: #f9f9f9;
   height: 45px;
@@ -57,7 +57,7 @@ body {
   text-decoration: none;
 }
 
-.header .bottom_nav ul {
+header .bottom_nav ul {
   width: 100%;
   height: 45px;
   display: flex;
@@ -68,7 +68,7 @@ body {
   padding: 20px;
 }
 
-.header .bottom_nav ul li a {
+header .bottom_nav ul li a {
   color: black;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -78,7 +78,7 @@ body {
   margin: 10px;
   padding: 20px;
 }
-.header .bottom_nav ul li a:hover {
+header .bottom_nav ul li a:hover {
   color: rgb(58, 58, 177);
 }
 /* Header ends */
