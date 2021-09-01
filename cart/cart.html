@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Add to cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2  start-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS v5.0.2  start end-->
+    <!-- font-awesome-cdn strat -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font-awesome-cdn end -->
+    <!-- my stylesheet start -->
+    <link rel="stylesheet" href="./css/cart.css">
+    <!-- my stylesheet end -->
+
+
+</head>
+
+<body>
+
+    <!-- -------------------------------top-bar start---------------- -->
+    <div class="container">
+        <div class="topbar py-2">
+            <a href="#">Home /</a>
+            <a href="#">Cart</a>
+        </div>
+    </div>
+    <!---------------------------------------- top-bar end ------------------->
+
+    <!-- -------------------------------cart-area-start-------------------- -->
+    <section class="cart-area">
+        <div class="container">
+            <div class="row gx-5">
+                <!-- left-content start -->
+                <div class="col-md-7 col-12 col-xxl-6 left_content">
+                    <figure>
+                        <img src="./assets/main.png" alt="" class="w-100" id="demo">
+                    </figure>
+                    <div class="fetures">
+                        <div class="row gx-2">
+                            <div class="col-md-3">
+                                <img src="./assets/1.webp" alt="" class="w-100"
+                                    onclick="document.getElementById('demo').src='./assets/1.webp'">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./assets/2.webp" alt="" class="w-100"
+                                    onclick="document.getElementById('demo').src='./assets/2.webp'">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./assets/3.webp" alt="" class="w-100"
+                                    onclick="document.getElementById('demo').src='./assets/3.webp'">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="./assets/4.webp" alt="" class="w-100"
+                                    onclick="document.getElementById('demo').src='./assets/4.webp'">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quality">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div class="icon"><i class="fas fa-truck-pickup"></i></div>
+                                    <p>Easy Returns</p>
+                                </div>
+                                <div class="box">
+                                    <div class="icon"><i class="fas fa-check-circle"></i></div>
+                                    <p>Quality Guaranteed</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="box">
+                                    <div class="icon"><i class="fas fa-flag-usa"></i></div>
+                                    <p>Locally Made</p>
+                                </div>
+                                <div class="box">
+                                    <div class="icon"><i class="fas fa-user-shield"></i></div>
+                                    <p>100% Secure</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- left-content end -->
+                <!-- right-content-start -->
+                <div class="col-md-5 right-content">
+                    <!-- top-section-end -->
+                    <div class="top-section">
+                        <h3 class="tittle">Holiday</h3>
+                        <div class="pricing">
+                            <span><del style="color:red">$28.00</del></span>
+                            <span class="ps-3"><strong style="font-size:2rem">$24.00</strong></span>
+                        </div>
+                        <div class="sizing">
+                            <h3 class="d-inline-block">Size</h3> <i class="fas fa-check-circle text-info"></i>   <span id="size" style="font-size: 1.3rem;"> S </span> <br> <br>
+                            <button class="size btn active" onclick='document.getElementById("size").innerHTML = "S"'>S</button>
+                            <button class="size btn" onclick='document.getElementById("size").innerHTML = "M"'>M</button>
+                            <button class="size btn" onclick='document.getElementById("size").innerHTML = "X"'>X</button>
+                            
+                            
+                           
+                        </div>
+                        <div class="color">
+                            <h4 id="red">Color:</h4>
+                            <div class="row gx-4">
+
+                                <div class="col-md-3 red" onclick="document.getElementById('demo').src='./assets/r.png'"></div>
+                                <div class="col-md-3 green" onclick="document.getElementById('demo').src='./assets/g.png'"></div>
+                                <div class="col-md-3 black" onclick="document.getElementById('demo').src='./assets/b.png'"></div>
+                                <div class="col-md-3 skyblue" onclick="document.getElementById('demo').src='./assets/n.png'"></div>
+                            </div>
+                        </div>
+                        <div class="number  d-inline-block">
+                            <span><i class="fas fa-angle-left"></i></span>
+                            <span class="pices">1</span>
+                            <span><i class="fas fa-angle-right"></i></span>
+                        </div>
+                        <div class="buttons py-2 pb-5">
+                            <button type="submit" class="btbg">Add to Cart <i
+                                    class="fas fa-long-arrow-alt-right"></i></button>
+                            <button type="submit" class="after">Buy it Now</i></button>
+                        </div>
+                    </div>
+
+                    <!-- top-section-end -->
+                    <!-- bottom-section-start -->
+                    <div class="bottom-section">
+                        <p><i class="fas fa-check-circle"></i> Pickup available at <strong>Skup Office</strong> <br>
+                            Usually ready in 2 hours</p>
+                        <a href="#">View store information</a>
+
+                        <!-- tabs  strat-->
+                        <p class="tab">
+                            <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Description
+                            </a>
+                            <a href="#" class="" data-bs-toggle="collapse" data-bs-target="#collapseExampl"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Shipping
+                            </a>
+                            <a class="" data-bs-toggle="collapse" href="#collapseExamp" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Sizing
+                            </a>
+                        </p>
+                        <p>This is a demonstration store. You can purchase products like this from Envato Elements.</p>
+                        <div class="collapse" id="collapseExample">
+                            <p>This is a demonstration store. You can purchase products like this from Envato Elements.
+                            </p>
+                        </div>
+                        <div class="collapse" id="collapseExampl">
+                            <p>We ship things quickly</p>
+                            <p>Quicker than anyone else</p>
+                            <p>Some say we're the quickest</p>
+                        </div>
+                        <div class="collapse" id="collapseExamp">
+                            <img src="./assets/s.webp" alt="">
+                        </div>
+
+                        <!-- tabs  end--------------------->
+                        <!-- social-links--------- -->
+                        <div class="social-icons py-5">
+                            <div class="fb"><i class="fab fa-facebook"></i> Shear</div>
+                            <div class="tw"><i class="fab fa-twitter"></i> Tweet</div>
+                            <div class="pin"><i class="fab fa-pinterest"></i> Pint it</div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- bottom-section-start -->
+                <!-- right-content-end -->
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------cart-area-end-------------------- -->
+
+    <!------------------------------ gellary-area-start------------------ -->
+    <section class="products">
+        <div class="container">
+            <div class="products-tittle text-center py-5">
+                <h2>You'll also like</h2>
+            </div>
+            <div class="products-items">
+                <div class="row">
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./assets/1.webp" alt="" class="w-100">
+                        </figure>
+                        <div class="item-tittle text-center">
+                            <h4>Making Memories</h4>
+                            <span>$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./assets/2.webp" alt="" class="w-100">
+                        </figure>
+                        <div class="item-tittle text-center">
+                            <h4>Making Memories</h4>
+                            <span>$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./assets/3.webp" alt="" class="w-100">
+                        </figure>
+                        <div class="item-tittle text-center">
+                            <h4>Making Memories</h4>
+                            <span>$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <figure>
+                            <img src="./assets/4.webp" alt="" class="w-100">
+                        </figure>
+                        <div class="item-tittle text-center">
+                            <h4>Making Memories</h4>
+                            <span>$24.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------------------ gellary-area-end------------------ -->
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries start-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Libraries end-->
+
+    <!-- jquery cdn start -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jquery cdn end -->
+   
+</body>
+
+</html>
