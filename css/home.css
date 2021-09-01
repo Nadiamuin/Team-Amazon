@@ -114,16 +114,204 @@ header .bottom_nav ul li a {
 header .bottom_nav ul li a:hover {
   color: rgb(58, 58, 177);
 }
+
 /* Header ends */
 
-main {
-  background-image: url("Assets/men-fashion-dressing-the-luxury-male-traveller-3.jpg");
+/* main area starts */
+
+main > .picture {
+  background-image: url("../img/ia_2000000600.jpg");
+  margin: 10px;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main > .picture p {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+  background-repeat: no-repeat;
+}
+.second_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.second_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.third_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.third_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fourth_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.fourth_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fifth_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.l_1 {
+  background-image: url("../img/ia_100000000171.jpg");
+  padding: 20px;
   margin: 10px;
   height: 400px;
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-radius: 3px;
+  background-repeat: no-repeat;
 }
+.l_2 {
+  background-image: url("../img/ia_100000000162.jpg");
+  padding: 20px;
+  margin: 10px;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+}
+
+.l_1 p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+}
+.l_2 p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+}
+.main_fifth {
+  display: flex;
+}
+
+/* 6th section start */
+a {
+  text-decoration: none;
+}
+
+body {
+  background: ghostwhite;
+}
+
+.topbar a:nth-child(2) {
+  text-decoration: underline;
+  color: red;
+}
+
+.topbar {
+  background-color: whitesmoke;
+  margin: 5rem;
+  border-radius: 10px;
+}
+
+/*======================================= news-area-strat============ */
+
+/* top-section start */
+.area-tittle h1 {
+  font-weight: 900;
+}
+
+.btn-group button {
+  border: 1px solid orange !important;
+  width: 200px;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+.dropdown-menu {
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+}
+
+.dropdown-item {
+  font-size: 1.3rem;
+}
+
+.dropdown-item:hover {
+  background-color: deepskyblue;
+}
+
+/* top-section end */
+
+/* bottom-section-start */
+.features h3 {
+  color: #4e4681;
+  font-weight: 600;
+}
+
+.features p {
+  color: dimgray;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 0;
+  font-family: "Roboto";
+  line-height: 2rem;
+}
+
+.red {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content-btn {
+  background-color: orange;
+  border-radius: 20px;
+  border: none;
+  padding: 0 1rem;
+  text-align: center;
+  color: #4e4681;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* bottom-section-end */
+/*======================================= news-area-end============ */
+
+/* 6th section ends */
+
+/* main area ends */
 
 /* Footer starts */
 footer {
@@ -132,6 +320,7 @@ footer {
   padding: 50px;
   color: #fff;
   background-color: #011c39;
+  position: fixed bottom;
 }
 .footer > * {
   flex: 1 100%;
