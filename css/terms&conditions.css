@@ -1,0 +1,31 @@
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+pre {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h3 > a {
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+}
+.topbar a:nth-child(2) {
+  text-decoration: underline;
+  color: red;
+}
+
+.topbar {
+  background-color: whitesmoke;
+  margin: 5rem;
+  border-radius: 10px;
+}
+.footer-bottom {
+  text-align: center;
+}

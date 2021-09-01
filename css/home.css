@@ -275,6 +275,11 @@ body {
 /* top-section end */
 
 /* bottom-section-start */
+.features {
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-around;
+}
 .features h3 {
   color: #4e4681;
   font-weight: 600;
@@ -307,7 +312,6 @@ body {
 }
 
 /* bottom-section-end */
-/*======================================= news-area-end============ */
 
 /* 6th section ends */
 
