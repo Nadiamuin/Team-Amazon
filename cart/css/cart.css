@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hina Mincho', serif;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =========================================top-bar-start===================== */
+.topbar {
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+.topbar a:nth-child(2){
+    font-weight: 600;
+    text-decoration: underline;
+    color: red;
+}
+
+/* =========================================top-bar-end===================== */
+
+/*========================================= cart-area-start================== */
+/* left-content strat */
+.cart-area {}
+
+.cart-area .left_content {
+   
+}
+
+.cart-area .left_content figure {
+    border: 1px solid #ddd;
+    margin: 0;
+    cursor: pointer;
+}
+
+.cart-area .left_content .fetures img {
+    border: 1px solid #ddd;
+    cursor: pointer;
+
+}
+
+.quality .box {
+    background-color: gainsboro;
+    text-align: center;
+    padding: .5rem;
+    margin: 35px 0;
+    font-size: 1.5rem;
+    color: rgb(17, 25, 77);
+    border-radius: 5px;
+}
+
+.quality .box .icon {
+    font-size: 2.5rem;
+
+}
+
+/* left-content end */
+
+
+/* right-content-start */
+.top-section .tittle{
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.sizing {
+    margin: 2rem 0;
+}
+
+.active {
+    border: 2px solid orange !important;
+}
+
+.sizing .size {
+
+    padding: .6rem;
+    font-size: 1.4rem;
+    border: 1px solid #ddd;
+    margin-right: 7px;
+    border-radius: 6px;
+}
+
+.color div {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color .red {
+    background: red;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    box-shadow: 0 3px 5px rgba(1, 1, 1, 1);
+}
+
+.color .green {
+    background: green;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    box-shadow: 0 3px 5px rgba(1, 1, 1, 1);
+}
+
+.color .black {
+    background: #000;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    box-shadow: 0 3px 5px rgba(1, 1, 1, 1);
+}
+
+.color .skyblue {
+    background: navy;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px 5px rgba(1, 1, 1, 1);
+
+}
+
+.number {
+    cursor: pointer;
+    margin: 3rem 0;
+    background: #ddd;
+    padding: .6rem 0;
+    border-radius: 20px;
+    height: 20%;
+}
+
+.number .pices {
+    font-size: 1.4rem;
+    background: white;
+    padding: .5rem 1rem;
+    margin: 0;
+    border: 2px solid rgba(90, 87, 87, .3);
+
+    font-weight: 900;
+}
+
+.number span i {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: navy;
+}
+
+.buttons button {
+    width: 450px;
+    padding: .6rem 2rem;
+    background-color: #f0a73e;
+    border: none;
+    border-radius: 20px;
+    color: #111;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: 900;
+
+}
+
+.after {
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.after::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(255, 196, 196);
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 20px; */
+    z-index: -1;
+    transform: translateX(95%);
+    transition: all .4s ease;
+}
+
+.after:hover:after {
+    transform: translateX(0);
+
+}
+
+.btbg {
+    background: gainsboro !important;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.btbg::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(255, 196, 196);
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* border-radius: 20px; */
+    z-index: -1;
+    transform: translateX(-95%);
+    transition: all .4s ease;
+}
+
+.btbg:hover:after {
+    transform: translateX(0);
+
+}
+.bottom-section p{
+    font-size: 1.2rem;
+   
+}
+.bottom-section p i{
+    color: green;
+}
+.bottom-section a{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    
+}
+.bottom-section p a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: .3rem .4rem;
+    margin-right: 4rem;
+    font-weight: bolder;
+    color:  #4e4681;
+ 
+    
+}
+.tab{
+  
+    margin: 1.5rem 0px;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+}
+.social-icons div{
+    display: inline-block;
+    border: 2px solid #ddd;
+    padding: .2rem 1rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.fb i{
+    color: #1094f4;
+}
+.tw i{
+    color: #16b3ef;
+}
+.pin i{
+    color: red;
+}
+/* right-content-end */
+
+
+
+/*========================================= cart-area-end================== */
+
+/*======================= products-area-start=========================== */
+.products{
+    margin: 6rem 0;
+}
+.products-tittle h2{
+    font-weight: 900;
+}
+.products-items figure{
+    border: 1px solid #ddd;
+}
+.item-tittle h4{
+    font-weight: 600;
+    color: darkslategrey;
+}
+.item-tittle span{
+    color: green;
+    font-size: 1.3rem;
+}
+/*======================= products-area-end=========================== */
