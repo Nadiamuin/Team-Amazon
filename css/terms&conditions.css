@@ -1,0 +1,25 @@
+h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+pre {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar a:nth-child(2) {
+  text-decoration: underline;
+  color: red;
+}
+
+.topbar {
+  background-color: whitesmoke;
+  margin: 5rem;
+  border-radius: 10px;
+}
+.footer-bottom {
+  text-align: center;
+}

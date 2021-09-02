@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Hina+Mincho&family=Merienda:wght@700&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* body {
+  font-family: poppins;
+  margin: 0;
+  display: grid;
+} */
+
+/* Header starts */
+.container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* main area starts */
+
+main > .picture {
+  background-image: url("../img/ia_2000000600.jpg");
+  margin: 10px;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main > .picture p {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+  background-repeat: no-repeat;
+}
+.second_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.second_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.third_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.third_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fourth_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.fourth_section > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.fifth_section {
+  margin-top: 50px;
+  width: 100vw;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.l_1 {
+  background-image: url("../img/ia_100000000171.jpg");
+  padding: 20px;
+  margin: 10px;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+}
+.l_2 {
+  background-image: url("../img/ia_100000000162.jpg");
+  padding: 20px;
+  margin: 10px;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-repeat: no-repeat;
+}
+
+.l_1 p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+}
+.l_2 p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 100px;
+}
+.main_fifth {
+  display: flex;
+}
+
+/* main area ends */
