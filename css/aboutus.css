@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
 }
@@ -33,3 +34,39 @@ h3 > a {
 .footer-bottom {
   text-align: center;
 }
+=======
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  p{
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  h3 > a {
+    text-decoration: none;
+    color: Black;
+    font-weight: bold;
+  }
+  .topbar a:nth-child(2) {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  .topbar {
+    background-color: whitesmoke;
+    margin: 5rem;
+    border-radius: 10px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+>>>>>>> Aysha
