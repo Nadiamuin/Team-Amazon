@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hina Mincho", serif;
+}
+
+body {
+  background-color: ghostwhite;
 }
 
 /*====================================== header-area-start==================== */
@@ -33,12 +41,7 @@
   padding: 10px;
 }
 
-.font-family {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-/*====================================== header-area-end==================== */
-
+/* --------about us starts---------------- */
 h2 {
   text-align: center;
   text-transform: uppercase;
@@ -58,6 +61,7 @@ h3 > a {
   color: Black;
   font-weight: bold;
 }
+
 .topbar a:nth-child(2) {
   text-decoration: underline;
   color: red;

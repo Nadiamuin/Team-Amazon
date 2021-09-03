@@ -49,6 +49,18 @@ body {
 a {
   text-decoration: none;
 }
+
+.topbar {
+  background-color: whitesmoke;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+.topbar a:nth-child(2) {
+  font-weight: 600;
+  text-decoration: underline;
+  color: red;
+}
 /* =============================contact-area-start============================== */
 .topbar {
   background-color: whitesmoke;
@@ -60,6 +72,7 @@ a {
   height: 100vh;
   background-color: ghostwhite;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .heading h1 {

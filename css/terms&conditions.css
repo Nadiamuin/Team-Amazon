@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Hina Mincho", serif;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
 /*====================================== header-area-start==================== */
 
 .logo a span {
@@ -56,9 +69,7 @@ pre {
   margin: 5rem;
   border-radius: 10px;
 }
-.footer-bottom {
-  text-align: center;
-}
+
 /* =============================fotter-area-start======================== */
 
 footer {
