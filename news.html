@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>News</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.0.2 start-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS v5.0.2 end-->
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- my stylesheet start -->
+    <link rel="stylesheet" href="css/news.css" />
+    <!-- my stylesheet end -->
+  </head>
+
+  <body>
+    <!-- top-bar start -->
+
+    <div class="topbar py-2">
+      <a href="#">Home /</a>
+      <a href="#">News</a>
+    </div>
+    <!-- top-bar end -->
+
+    <!-- ----------------------news-area-start--------------------------- -->
+    <!-- top-section strat -->
+    <section class="news-area">
+      <div class="container">
+        <div class="area-tittle text-center">
+          <h1 class="text-uppercase">news</h1>
+        </div>
+        <div class="menu text-center py-3">
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Button group with nested dropdown"
+          >
+            <div class="btn-group" role="group">
+              <span class="p-2">FILTER BY </span>
+              <button
+                id="btnGroupDrop1"
+                type="button"
+                class="dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                All topics
+              </button>
+              <ul
+                class="dropdown-menu shadow-lg"
+                aria-labelledby="btnGroupDrop1"
+              >
+                <li><a class="dropdown-item news1" href="#">All topics</a></li>
+                <li><a class="dropdown-item news2" href="#">Confidents</a></li>
+                <li><a class="dropdown-item news3" href="#">Empowerment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- top-section end -->
+        <!-- bottom-section-start -->
+        <div class="features py-5">
+          <div class="row gx-5">
+            <div class="col-md-4 col-xxl-4 col-12">
+              <div id="news1">
+                <figure>
+                  <img src="Assets/news-assets/Blog1_360x.webp" alt="" />
+                </figure>
+                <h3 class=".figure-tittle">
+                  The Graphic Shirt Collection <br />
+                  You Never Thought You <br />
+                  Needed
+                </h3>
+                <p class="description">
+                  Stop it with the basic T's, life is calling your name. Pick up
+                  a fresh new graphic T from our Hot collection.
+                </p>
+                <a href="#" class="red"
+                  >Read more <i class="fas fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-xxl-4 col-12">
+              <div id="news2">
+                <figure>
+                  <img src="Assets/news-assets/Blog2_360x.webp" alt="" />
+                </figure>
+                <h3 class=".figure-tittle">
+                  Who Needs Handshakes? Let Your Shirt Be Your Introduction!
+                </h3>
+                <button class="content-btn">Confidents</button>
+                <button class="content-btn">Empowerment</button>
+                <p class="description">
+                  Let's quit the uninteresting shirt game and move on to showing
+                  others what we're really into - let your shirt be part of your
+                  brand!
+                </p>
+                <a href="#" class="red"
+                  >Read more <i class="fas fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4 col-xxl-4 col-12">
+              <div id="news3">
+                <figure>
+                  <img src="Assets/news-assets/Blog3_360x.webp" alt="" />
+                </figure>
+                <h3 class=".figure-tittle">
+                  Empower Your Friends With Personalized Threads This Holiday
+                  Season
+                </h3>
+                <button class="content-btn">Empowerment</button>
+                <p class="description">
+                  Stop it with the basic T's, life is calling your name. Pick up
+                  a fresh new graphic T from our Hot collection.
+                </p>
+                <a href="#" class="red"
+                  >Read more <i class="fas fa-long-arrow-alt-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bottom-section-end -->
+      </div>
+    </section>
+    <!-- ----------------------news-area-end--------------------------- -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery-cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".news2").click(function () {
+          $("#news2").slideDown(1000);
+          $("#news3").hide(1000);
+          $("#news1").hide(1000);
+        });
+        $(".news1").click(function () {
+          $("#news1").slideDown(1000);
+          $("#news2").slideDown(1000);
+          $("#news3").slideDown(1000);
+        });
+        $(".news3").click(function () {
+          $("#news1").hide(1000);
+          $("#news2").hide(1000);
+          $("#news3").slideDown(1000);
+        });
+      });
+    </script>
+  </body>
+</html>
