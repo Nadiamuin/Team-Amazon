@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hina Mincho', serif;
+}
+body{
+    background-color:ghostwhite;
+}
+a{
+    text-decoration: none;
+}
+/* =============================contact-area-start============================== */
+.topbar{
+    background-color: whitesmoke;
+    margin: 5rem;
+    border-radius: 10px;
+}
+.contact-area{
+    width: 100vw;
+    height: 100vh;
+    background-color:ghostwhite;
+     position: relative;
+}
+
+
+.heading h1{
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 3px;
+   
+}
+.tittle{
+    margin-left:10rem;
+    font-size: 1.5rem;
+     margin-top:5rem;
+  
+}
+.input-group{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 800px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    border: 1px solid #ddd;
+   
+}
+.input-group input{
+    width: 600px;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    background-color:ghostwhite;
+    font-weight: bold;
+   
+    
+}
+
+.input-group .massage{
+    width: 600px;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    background-color:ghostwhite;
+    font-weight: bold;
+}
+.input-group button{
+       width: 600px;
+       padding: .8rem 2rem;
+       background-color: #f0a73e;
+       border: none;
+       border-radius: 15px;
+       color: #111;
+       font-weight: bold;
+       font-size: 1.2rem;
+     
+}
+.input-group button:hover i{
+    transform: translateX(5px);
+    transition: all .4s ease-in-out;
+}
+
+/* =============================contact-area-end============================== */
