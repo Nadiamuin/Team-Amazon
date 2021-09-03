@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>E-commerce Site</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/baa0b07f01.js" crossorigin="anonymous"></script>
+    <!-- aos-library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- style css link -->
+    <link rel="stylesheet" href="./csss/home.css" />
+    <link rel="stylesheet" href="./csss/mobile.css">
+    <link rel="stylesheet" href="./csss/cart.css">
+</head>
+
+<body onload="myFunction()"> 
+
+    <!-- lodaer-animation-start -->
+    <div id="loader"></div>
+    <!-- lodaer-animation-end -->
+
+
+<!-- -----------------header-section-start------------------------------------ -->
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-md navbar-light pt-5 pb-4 shadow-lg">
+    <div class="container-xxl logo">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#">
+        <span class="fw-bold"> AVATAR </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#main-nav"
+        aria-controls="main-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div
+        class="collapse navbar-collapse justify-content-end align-center"
+        id="main-nav"
+      >
+        <ul class="navbar-nav margin padding font-family">
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="home.html">Home</a>
+          </li>
+
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-bold"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Men's</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Women's</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="news.html">News</a>
+          </li>
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="cart.html">Cart </a>
+          </li>
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="contactus.html">Contact us</a>
+          </li>
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="checkout.html">Checkout</a>
+          </li>
+          <li class="nav-item margin padding font-family">
+            <a class="nav-link fw-bold" href="terms&conditions.html"
+              >Terms & Conditions
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- -----------------header-section-start------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------main section starts here --------------------------------->
+    <main>
+        <!-- ------banner section start-------------------- -->
+        <div class="container-fluid mx-auto">
+            <div class="1st_section picture text-center">
+                <p>So many ways to express yourself</p>
+                <a href="#shop" class="shopbtn">Shop Now</a>
+            </div>
+        </div>
+        <!-- ------banner section end------------------------ -->
+
+        <!-- ------------services-section-start ---------------------->
+        <section class="services text-center py-4">
+            <div class="container-fluid">
+                <div class="row  text-center">
+                    <div class="mobile">
+                        <div class="col-md-4">
+                            <div class="service-item">
+                                <figure><img src="./img/i1.png" alt="" class="img-fliud"></figure>
+                                <p class="tittle">Locally Owned</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="service-item">
+                                <figure><img src="./img/i2.png" alt="" class="img-fliud"></figure>
+                                <p class="tittle">Fast Shipping</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="service-item">
+                                <figure><img src="./img/i3.png" alt="" class="img-fliud"></figure>
+                                <p class="tittle">365 Day Guarantee</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------- services-section-end----------- -->
+
+        <!----------------------- 2nd section  start---------------------------->
+
+        <div class="container-fluid second_section mx-auto">
+            <div class="area-tittle text-center py-4">
+                <h1>Collection list</h1>
+            </div>
+            <div class="row g-3 mx-auto">
+                <div class="col-md-3 ">
+                    <div class="products">
+                        <div class="products-item">
+                            <img src="img/ia_100000000049.jpg " height="" alt="" />
+                            <div class="overlay">
+                                <p>Graphics Tess <i class="fas fa-long-arrow-alt-right"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="products">
+                        <div class="products-item">
+                            <img src="./img/ia_100000000059.jpg " height="" alt="" />
+                            <div class="overlay">
+                                <p>Mens<i class="fas fa-long-arrow-alt-right"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                    <div class="products">
+                        <div class="products-item">
+                            <img src="./img/ia_100000000060.jpg" height="" alt="" />
+                            <div class="overlay">
+                                <p>Womens <i class="fas fa-long-arrow-alt-right"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="products">
+                        <div class="products-item">
+                            <img src="./img/ia_100000000064.jpg " height="" alt="" />
+                            <div class="overlay">
+                                <p>Apparel <i class="fas fa-long-arrow-alt-right"></i></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!----------------------- 2nd section  end---------------------------->
+
+
+        <!--------------------------------- 3rd Section start---------------->
+        <section class="garpic-tess text-center" id="shop">
+            <button type="button" class="btn my-4" id="all">All Collections <i
+                    class="fas fa-long-arrow-alt-right btnicon"></i></button>
+            <div class="area-tittle text-center py-4">
+                <h1>Graphic Tees</h1>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="add-to-cart">
+                            <div class="cart-container" data-aos="zoom-in">
+                                <figure><img src="./img/g.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Making Memories</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart">
+                            <div class="cart-container" data-aos="zoom-in">
+                                <figure><img src="./img/g2.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Wild Soul</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart">
+                            <div class="cart-container" data-aos="zoom-in">
+                                <figure><img src="./img/g3.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Lake Life</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart">
+                            <div class="cart-container" data-aos="zoom-in">
+                                <figure><img src="./img/g4.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Wild Spirit</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------------------------------- 3rd Section end---------------->
+        <!------------------------- popup-section strat ------------------->
+        <div class="container-fluid text-center py-5" id="popup">
+            <div class="row gx-5">
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container" data-aos="fade-left">
+                            <figure><img src="./img/h1.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Making Memories</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart" data-aos="fade-up">
+                        <div class="cart-container">
+                            <figure><img src="./img/h2.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Wild Soul</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container" data-aos="fade-down">
+                            <figure><img src="./img/h3.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Lake Life</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart" data-aos="fade-right">
+                        <div class="cart-container">
+                            <figure><img src="./img/h1.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Wild Spirit</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 2nd popup -->
+        <div class="container-fluid text-center py-5" id="popup2">
+            <div class="row gx-5">
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container">
+                            <figure><img src="./img/m1.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Making Memories</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container">
+                            <figure><img src="./img/m2.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Wild Soul</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container">
+                            <figure><img src="./img/m3.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Lake Life</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="add-to-cart">
+                        <div class="cart-container">
+                            <figure><img src="./img/m4.jpg" alt="" class="w-100"> <i class="far fa-heart"></i></figure>
+                            <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                        </div>
+                        <h5 class="tittle">Wild Spirit</h5>
+                        <span class="price">$24.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------popup-section end------------------- -->
+
+        <!------------------------ 4th section strat------------------- -->
+        <section class="apparel text-center ">
+            <div class="container-fluid">
+                <button type="button" class="btn  my-4">Shop this Collections <i
+                        class="fas fa-long-arrow-alt-right btnicon"></i></button>
+                <div class="area-tittle text-center py-4">
+                    <h1>Apparel</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="add-to-cart" data-aos="fade-left">
+                            <div class="cart-container">
+                                <figure><img src="./img/a1.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Forget Adulting Go Camp</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart"  data-aos="fade-right">
+                            <div class="cart-container">
+                                <figure><img src="./img/a2.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">What Happens at Camp</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart"  data-aos="fade-left">
+                            <div class="cart-container">
+                                <figure><img src="./img/a3.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">You will never know</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="add-to-cart"  data-aos="fade-right">
+                            <div class="cart-container">
+                                <figure><img src="./img/a4.webp" alt=""> <i class="far fa-heart"></i></figure>
+                                <div class="cart-btn"><a href="#" class="">Add To Cart</a></div>
+
+                            </div>
+                            <h5 class="tittle">Let's Wander Wifi Weak</h5>
+                            <span class="price">$24.00</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!------------------------ 4th section end------------------- -->
+        <!------------------------------- 5th Section start ---------------->
+        <div class="defualt-btnn text-center py-2"> <button type="button" class="btn defualt-btn my-4">Shop this
+                Collections <i class="fas fa-long-arrow-alt-right btnicon"></i></button></div>
+        <section class="features">
+
+            <div class="container-fluid">
+
+                <div class="row g-4">
+                    <div class="col-md-6" data-aos="flip-left">
+                        <div class="left-content text-center">
+                            <h1>So many ways to express <br> yourself</h1>
+                            <button type="button" class="btn  my-4">Shop this Collections <i
+                                    class="fas fa-long-arrow-alt-right btnicon"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-aos="flip-right">
+                        <div class="right-content text-center">
+                            <h1>So many ways to express <br> yourself</h1>
+                            <button type="button" class="btn  my-4">Shop this Collections <i
+                                    class="fas fa-long-arrow-alt-right btnicon"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------- 5th Section end ---------------->
+
+        <!------------------------------- 6th Section end ---------------->
+        <section class="blogs-section py-4 mx-2">
+            <div class="container-fluid">
+                <div class="area-tittle text-center py-4">
+                    <h1>Latest Blog Articles</h1>
+                </div>
+                <div class="blogs py-5">
+                    <div class="row gx-5">
+                        <div class="col-md-4 col-xxl-4 col-12"  data-aos="fade-right">
+                            <div id="news1">
+                                <figure>
+                                    <img src="./img/Blog1_360x.webp" alt="">
+                                </figure>
+                                <h3 class=".figure-tittle">The Graphic Shirt Collection <br> You Never Thought You <br>
+                                    Needed</h3>
+                                <p class="description">Stop it with the basic T's, life is calling your name. Pick up a
+                                    fresh new graphic T from our Hot collection.</p>
+                                <a href="#" class="red">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xxl-4 col-12"  data-aos="fade-up">
+                            <div id="news2">
+                                <figure>
+                                    <img src="./img/Blog2_360x.webp" alt="">
+                                </figure>
+                                <h3 class=".figure-tittle">Who Needs Handshakes? Let Your Shirt Be Your Introduction!
+                                </h3>
+                                <button class="content-btn">Confidents</button>
+                                <button class="content-btn">Empowerment</button>
+                                <p class="description">Let's quit the uninteresting shirt game and move on to showing
+                                    others
+                                    what we're really into - let your shirt be part of your brand!</p>
+                                <a href="#" class="red">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xxl-4 col-12"  data-aos="fade-left">
+                            <div id="news3">
+                                <figure>
+                                    <img src="./img/Blog3_360x.webp" alt="">
+                                </figure>
+                                <h3 class=".figure-tittle">Empower Your Friends With Personalized Threads This Holiday
+                                    Season</h3>
+                                <button class="content-btn">Empowerment</button>
+                                <p class="description">Stop it with the basic T's, life is calling your name. Pick up a
+                                    fresh new graphic T from our Hot collection.</p>
+                                <a href="#" class="red">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="defualt-btnn text-center"> <button type="button" class="btn defualt-btn my-4">View All <i
+                        class="fas fa-long-arrow-alt-right btnicon"></i></button></div>
+        </section>
+
+        <!------------------------------- 6th Section end ---------------->
+
+        <!------------------------------- 7th Section start ---------------->
+
+        <section class="newsletter text-center"  data-aos="zoom-in">
+            <div class="container-fluid">
+                <div class="content">
+                    <h1 class="py-3">Subscribe to our newsletter</h1>
+                    <p>Sign up for our newsletter to recieve news, promotions, and annoucements.</p>
+
+                    <form action="" class="py-4">
+                        <input type="email" placeholder="Email">
+                        <button>Sing-up <i class="fas fa-long-arrow-alt-right btnicon"></i></button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!------------------------------- 7th Section end ---------------->
+
+        <!--------------------------------- fotter----------------------- -->
+
+        <footer class="footer">
+            <div class="footer-left">
+              <h3>AVATAR</h3>
+              <p>
+                We are a USA owned company, and we print and ship as many of our
+                products as we can in the USA, including our mugs, tumblers, shirts,
+                hats, hoodies and more. As many as possible are also manufactured in
+                the USA.
+              </p>
+              <div class="socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+              </div>
+            </div>
+            <ul class="footer-right">
+              <li>
+                <h2>Shop Avatar!</h2>
+                <ul class="box">
+                  <li><a href="home.html" target="blank">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="cart.html" target="blank">Cart</a></li>
+                  <li><a href="news.html" target="blank">News</a></li>
+                  <li><a href="checkout.html" target="blank">Checkout</a></li>
+                </ul>
+              </li>
+              <li class="features">
+                <h2>Customer Service</h2>
+                <ul class="box">
+                  <li><a href="contact.html" target="blank"> Contact </a></li>
+                  <li><a href="aboutus.html" target="blank"> About </a></li>
+                  <li>
+                    <a href="terms&conditions.html" target="blank">
+                      Terms & conditions</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="features">
+                <h2>address</h2>
+                <ul class="box">
+                  <li><a href="#">127, Westwood Lane</a></li>
+                  <li><a href="#">DA15 9PS,Sidcup</a></li>
+                  <li><a href="#">London</a></li>
+                  <li><a href="#">United kingdom</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="footer-bottom">
+              <p>All Right reserved by &copy;Team-Amazon 2021</p>
+            </div>
+          </footer>
+
+
+
+        <!--------------------------------- fotter----------------------- -->
+
+
+
+
+
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <!-- jquey cdn start -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- jquey cdn end -->
+        <!-- sweet-alert strat-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- sweet-alert end -->
+
+        <!-- aos-library strat-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- aos-library end-->
+
+        <!-- my js -->
+        <script src="./js/home.js"></script>
+
+        <script>
+
+            $(".cart-btn").click(function () {
+                Swal.fire(
+                    'Thank u!',
+                    'added to cart!',
+                    'success'
+                )
+            });
+
+            $("#shop").click(function () {
+                $("#popup").fadeToggle();
+                $("#popup2").fadeToggle();
+
+            });
+
+
+
+
+
+        </script>
+</body>
+
+</html>

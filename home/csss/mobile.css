@@ -1,0 +1,36 @@
+@media screen and (max-width:500px) {
+
+    .picture {
+        background-image: url("../img/ia_2000000600.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 999;
+        width: 400px;
+        height: 700px;
+    }
+
+    .picture p {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        color: #ffffff;
+        word-spacing: 2px;
+        padding-top: 10rem;
+
+    }
+
+    .service-item {
+        background-color: whitesmoke;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .container-fluid {
+        width: 400px;
+    }
+
+
+
+}
