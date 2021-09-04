@@ -91,10 +91,10 @@ footer {
   margin-bottom: 2em;
   text-align: left;
 }
-.footer-left h3{
+.footer-left h3 {
   text-align: left;
 }
-.footer-left p{
+.footer-left p {
   text-align: left;
 }
 h2 {
@@ -119,9 +119,14 @@ h2 {
 .footer-right > * {
   flex: 1 50%;
   margin-right: 1.25em;
+  text-align: center;
 }
 .box a {
   color: #999;
+}
+
+.footer-right li {
+  text-align: left;
 }
 .footer-bottom {
   text-align: center;
