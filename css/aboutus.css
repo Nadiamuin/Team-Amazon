@@ -89,6 +89,13 @@ footer {
 .footer-left {
   margin-right: 1.25em;
   margin-bottom: 2em;
+  text-align: left;
+}
+.footer-left h3{
+  text-align: left;
+}
+.footer-left p{
+  text-align: left;
 }
 h2 {
   font-weight: 600;
@@ -103,6 +110,7 @@ h2 {
 }
 .footer a {
   text-decoration: none;
+  text-align: center;
 }
 .footer-right {
   display: flex;
@@ -160,3 +168,4 @@ h2 {
   }
 }
 /* Footer ends */
+/* =============================fotter-area-start======================== */
